@@ -1,0 +1,22 @@
+{
+  "name": "p5-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "author": "Ahmad-Fz",
+  "license": "MIT",
+  "dependencies": {
+    "p5": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "build": "webpack --build",
+    "start": "webpack-dev-server --mode development --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
